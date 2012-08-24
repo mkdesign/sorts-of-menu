@@ -3,10 +3,19 @@
 	padding:0;
 }
 
+.clear{
+	clear:both;
+	width:0 !important;
+	height:0 !important;
+	min-height:0 !important;
+	min-width:0 !important;
+	overflow:hidden;
+	float: none !important;
+}
 .container{
-	width:950px;
 	margin: 0 auto;
 	background-image: url('../images/iPadBackgroundTexture-grey.png');
+	height: 100%;
 }
 
 nav{
@@ -15,3 +24,22 @@ nav{
 	margin:0 auto;
 
 }
+
+menu.social{
+	width: 950px;
+	list-style-type: none;
+	background-image: url('../images/NSTexturedFullScreenBackgroundColor.png');
+}
+
+menu.social li{
+	float: left;
+
+}
+
+menu.social li a{
+	display: block;
+	text-decoration: none;
+	padding:14px 17px;
+	background-color: #aaa;
+}
+
