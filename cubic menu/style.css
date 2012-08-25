@@ -33,12 +33,23 @@ menu.social{
 
 menu.social li{
 	float: left;
-
+	margin-left:10px;
 }
 
 menu.social li a{
 	display: block;
 	text-decoration: none;
-	padding:14px 17px;
+	padding:20px 17px;
+	color:white;
+	background-color: gray;
+	position: relative;
+	top:-40px;
 }
+
+
+
+
+
+
+
 
