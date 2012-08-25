@@ -10,9 +10,17 @@ $(function(){
 				top:-20
 			},due)
 		},dly+=200);
-		$(that).mouseover(function(){
-			
+		$(that).mouseover(function  () {
+			$(that).animate({
+				top:-10				
+
+			},100)
+		});
+		$(that).onmouseout(function  () {
+			// body...
 		})
+
+	
 	});
 
 });
