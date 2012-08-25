@@ -16,8 +16,11 @@ $(function(){
 
 			},100)
 		});
-		$(that).onmouseout(function  () {
-			// body...
+		$(that).mouseout(function  () {
+			$(that).animate({
+				top:-20
+
+			},100,'swing')
 		})
 
 	
