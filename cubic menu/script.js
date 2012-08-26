@@ -11,10 +11,10 @@ $(function(){
 			},due)
 		},dly+=200);
 		$(that).mouseover(function  () {
-			$(that).animate({
-				top:-10				
-
-			},100)
+			$(that).css({
+				top:-10,				
+				animation:anim1345954935609 5s
+			})
 		});
 		$(that).mouseout(function  () {
 			$(that).animate({
